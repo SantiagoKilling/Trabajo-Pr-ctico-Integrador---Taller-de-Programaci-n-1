@@ -1,0 +1,1 @@
+# Lógica de cálculo, acumuladores y reglas heurísticas
