@@ -1,0 +1,59 @@
+=====================================================================
+        REPORTE DE AUDITORIA Y TELEMETRIA - GAMESEC MONITOR          
+=====================================================================
+Fecha de generacion: 30/10/2026
+
+[1] RESUMEN GLOBAL OPERATIVO
+=====================================================================
+Total de sesiones procesadas: 150
+Ping promedio global: 148.44 ms
+Duracion media de partida: 29.39 min
+Partidas de alta competencia (Ranked/Torneo): 53.33%
+
+[2] RENDIMIENTO REGIONAL POR SERVIDOR
+=====================================================================
+Servidor           | Sesiones | Ping Promedio | FPS Promedio
+--------------------------------------------------------------
+SA-BuenosAires     | 39       |    78.95 ms |    90.85 fps
+EU-Frankfurt       | 42       |   199.07 ms |    96.71 fps
+NA-Virginia        | 39       |   228.31 ms |    91.08 fps
+SA-SaoPaulo        | 30       |    64.07 ms |    84.60 fps
+
+[3] AUDITORIA DE SEGURIDAD E INCIDENTES
+=====================================================================
+Distribucion de estados de seguridad:
+  Normales:     118 sesiones (78.67%)
+  Sospechosos:   22 sesiones (14.67%)
+  Criticos:      10 sesiones (6.67%)
+
+Detalle de Sesiones Criticas Detectadas:
+[!] Sesion #8 - Jugador: User_646 | Servidor: SA-SaoPaulo
+    Motivo: Exceso de reportes por trampa (5) e intentos fallidos (5)
+[!] Sesion #17 - Jugador: User_878 | Servidor: SA-BuenosAires
+    Motivo: Exceso de reportes por trampa (4) e intentos fallidos (5)
+[!] Sesion #33 - Jugador: User_391 | Servidor: NA-Virginia
+    Motivo: Exceso de reportes por trampa (5) e intentos fallidos (4)
+[!] Sesion #53 - Jugador: User_567 | Servidor: SA-BuenosAires
+    Motivo: Exceso de reportes por trampa (5) e intentos fallidos (7)
+[!] Sesion #65 - Jugador: User_896 | Servidor: SA-BuenosAires
+    Motivo: Exceso de reportes por trampa (4) e intentos fallidos (7)
+[!] Sesion #86 - Jugador: User_612 | Servidor: NA-Virginia
+    Motivo: Exceso de reportes por trampa (5) e intentos fallidos (6)
+[!] Sesion #101 - Jugador: User_519 | Servidor: SA-SaoPaulo
+    Motivo: Exceso de reportes por trampa (5) e intentos fallidos (6)
+[!] Sesion #123 - Jugador: User_436 | Servidor: SA-SaoPaulo
+    Motivo: Exceso de reportes por trampa (5) e intentos fallidos (5)
+[!] Sesion #126 - Jugador: User_562 | Servidor: SA-BuenosAires
+    Motivo: Exceso de reportes por trampa (4) e intentos fallidos (4)
+[!] Sesion #129 - Jugador: User_201 | Servidor: EU-Frankfurt
+    Motivo: Exceso de reportes por trampa (4) e intentos fallidos (7)
+
+[4] CONCLUSIONES TECNICAS DEL EQUIPO
+=====================================================================
+1. La infraestructura regional presenta variaciones notables de latencia, sobre todo en la zona de Virginia de América del norte, requiriendo optimizacion en nodos con ping medio elevado.
+2. El motor heuristico identifico un volumen acotado pero critico de ataques de fuerza bruta y reportes reiterados por uso de software no autorizado.
+3. Las sesiones en modalidades competitivas y torneo concentran la mayor estabilidad operativa, recomendando priorizar su ancho de banda en picos de trafico.
+
+=====================================================================
+                       FIN DEL REPORTE GAMESEC                       
+=====================================================================
